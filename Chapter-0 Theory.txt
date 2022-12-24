@@ -1,0 +1,19 @@
+1 What is Emmet?
+Ans- Set of essential plugins for code editors for improving the HTML and CSS workflow. This allows shortcuts for the code that then expnaded into full pieces of code. 
+
+2. Difference between a Library and Framework?
+
+3. What is CDN? Why do we use it?
+Ans:- CDN - Content Delivery Networks that provide us some pieces code from a remote server to help us write our program on the top of some others code.
+
+4. Why is React known as React?
+
+5. What is crossorigin in script tag?
+
+Ans:- When the server and client are in the two different place, then the browser don't allow us to get resurce form the server. That kind of situation is called crossorigin issue.
+
+6. What is diference between React and ReactDOM ?
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+
+8. What is async and defer?

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+
+        <!-- 
+            <h1> Wohoo, Namaste React Course Started!!!, With Javascript </h1>
+            <h2> With Plain HTML </h2>
+        -->
+    </div>
+    <!-- With Vanila Javascript -->
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Wohoo, Namaste React Course Started!!!, With Javascript"
+        const root =  document.getElementById("root");
+        root.appendChild(heading)
+    </script> -->
+
+    <!-- With ReactJS  -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"> </script>
+    <!-- <script>
+        const heading = React.createElement("h1", {
+            id: "title"
+        }, "Wohoo, Namaste React Course Started!!!, With React");
+        const heading2 = React.createElement("h2", {
+            id: "heading2"
+        }, "First day class assignment")
+
+        const container = React.createElement("div", {
+            id: "container"
+        }, [heading, heading2])
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(container);
+    </script> -->
+
+</body>
+
+</html>
